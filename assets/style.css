@@ -266,6 +266,81 @@ body {
 	overflow-x: auto;
 }
 
+
+
+
+*body {
+    background: #ddd;
+   
+}
+
+.profile-area{
+
+    padding: 80px 0;
+}
+.card{
+    box-shadow:0 10px rgba(13, 126, 255); 
+    overflow: hidden;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 35px;
+    justify-content: center;
+}
+.img1 img{
+
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px; width: 100%;
+}
+
+
+.main-text{
+
+    padding: 30px 0;
+    text-align: center;
+}
+.main-text h2{
+    text-transform: uppercase; 
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.main-text p{
+font-size: 16px;
+padding: 0;
+}
+.socials{
+
+text-align: center; 
+padding-bottom: 20px;
+}
+.socials i{
+font-size: 20px; color: rgb(0, 161, 161);
+padding: 10px;
+}
+
+Button {
+    padding: 8px 16px; 
+    background-color: #4abd4e; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+Button:hover {
+    background-color: #2a7c2e; 
+}
+
+#resetButton {
+	background-color: #ce332e;
+}
+
+#resetButton:hover {
+	background-color: #9b1d18;
+}
+
+
 @media screen and (max-width: 768px) {
 	#sidebar {
 		width: 200px;
@@ -325,3 +400,6 @@ body {
 		min-width: 420px;
 	}
 }
+
+
+
